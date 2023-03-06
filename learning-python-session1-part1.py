@@ -15,4 +15,11 @@ while next=='y':
         print('Minute now is not odd ')
     next=input('Are You Continue? (y/n)')
 
+''' Seccond Method for Compare Minutes by for loop'''
+for i in range(3):
+    cm = datetime.datetime.today().minute
+    if cm in odd:
+        print('Minute now is odd = ',cm)
+    else:
+        print('Minute now is not odd ')
 
