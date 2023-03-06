@@ -27,7 +27,7 @@ for i in range(birkac):
         print('Minute now is not odd ')
     if i!=birkac-1:
          birsanieh = random.randint(0,59)
-         print('Plz wait ',birsanieh,'second')         
+         print('Please wait ',birsanieh,'second')         
          time.sleep(birsanieh)
 
 
