@@ -24,7 +24,8 @@ for i in range(birkac):
         print('Minute now is odd = ',cm)
     else:
         print('Minute now is not odd ')
-    birsanieh=int(input('How many second do you need for delay beetwin repeats? '))
-    time.sleep(birsanieh)
+    if i!=birkac-1:
+         birsanieh=int(input('How many second do you need for delay beetwin repeats? '))
+         time.sleep(birsanieh)
 
 
