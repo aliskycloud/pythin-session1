@@ -16,6 +16,7 @@ while next=='y':
     next=input('Are You Continue? (y/n)')
 
 ''' Seccond Method for Compare Minutes by for loop'''
+import random
 birkac=int(input('How many repeat do you need? '))
 
 for i in range(birkac):
@@ -25,7 +26,11 @@ for i in range(birkac):
     else:
         print('Minute now is not odd ')
     if i!=birkac-1:
-         birsanieh=int(input('How many second do you need for delay beetwin repeats? '))
+         birsanieh = random.randint(0,59)
+         print('Plz wait ',birsanieh,'second')
+         '''birsanieh=int(input('How many second do you need for delay beetwin repeats? '))'''
          time.sleep(birsanieh)
+
+
 
 
