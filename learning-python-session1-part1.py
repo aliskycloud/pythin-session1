@@ -17,13 +17,14 @@ while next=='y':
 
 ''' Seccond Method for Compare Minutes by for loop'''
 birkac=int(input('How many repeat do you need? '))
-birsanieh=int(input('How many second do you need for delay beetwin repeats? '))
+
 for i in range(birkac):
     cm = datetime.datetime.today().minute
     if cm in odd:
         print('Minute now is odd = ',cm)
     else:
         print('Minute now is not odd ')
+    birsanieh=int(input('How many second do you need for delay beetwin repeats? '))
     time.sleep(birsanieh)
-    
+
 
