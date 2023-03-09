@@ -15,7 +15,7 @@ while next=='y':
         print('Minute now is not odd ')
     next=input('Are You Continue? (y/n)')
 
-''' Seccond Method for Compare Minutes by for loop'''
+''' Seccond Method for Compare min by for loop'''
 import random
 birkac=int(input('How many repeat do you need? '))
 
